@@ -24,10 +24,8 @@ from tabulate import tabulate
 # Initialize colorama for cross-platform colored output
 init()
 
-# Load environment variables from project root
-project_root = Path(__file__).parent.parent
-env_path = project_root / "docs_config" / ".env"
-load_dotenv(env_path)
+# Load environment variables
+load_dotenv()
 
 class Config:
     """Configuration class for the API security scanner"""

@@ -5,13 +5,9 @@ Simplified version for quick API security checks
 """
 
 import sys
-import sys
 import json
 import time
 from pathlib import Path
-
-# Add current directory to path to import api_security_scanner
-sys.path.insert(0, str(Path(__file__).parent))
 from api_security_scanner import SecurityScanner
 
 def quick_scan(target_url: str, api_name: str = "Quick Scan API"):

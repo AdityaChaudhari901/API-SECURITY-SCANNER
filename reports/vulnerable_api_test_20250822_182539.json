@@ -1,0 +1,21 @@
+{
+  "scan_info": {
+    "scan_type": "Enhanced Vulnerable API Testing",
+    "targets": [
+      "OWASP Juice Shop",
+      "VAmPI"
+    ],
+    "timestamp": "2025-08-22T18:25:39.832487",
+    "total_alerts": 1,
+    "high_severity_count": 1
+  },
+  "alerts": [
+    {
+      "name": "Broken Access Control",
+      "risk": "High",
+      "url": "http://localhost:3000/administration",
+      "description": "Admin panel accessible without proper authentication",
+      "confidence": "High"
+    }
+  ]
+}

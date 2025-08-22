@@ -1,0 +1,138 @@
+{
+  "report_type": "ULTIMATE COMPREHENSIVE SECURITY ASSESSMENT",
+  "assessment_info": {
+    "target_url": "http://localhost:3000",
+    "api_name": "OWASP Juice Shop",
+    "assessment_timestamp": "2025-08-22T18:37:53.920470",
+    "total_scans_performed": 2,
+    "total_findings": 2,
+    "security_posture": "HIGH RISK",
+    "risk_distribution": {
+      "high": 2,
+      "medium": 0,
+      "low": 0
+    }
+  },
+  "executive_summary": {
+    "overall_security_rating": "HIGH RISK",
+    "immediate_attention_required": 2,
+    "total_vulnerabilities_found": 2,
+    "scans_performed": 2,
+    "key_vulnerability_types": [
+      "Broken Access Control"
+    ],
+    "recommendations_count": 8,
+    "compliance_status": "NON-COMPLIANT"
+  },
+  "detailed_scan_results": {
+    "scan_metadata": [
+      {
+        "file": "vulnerable_api_test_20250822_183753.json",
+        "scan_type": "Enhanced Vulnerable API Testing",
+        "timestamp": "2025-08-22T18:37:53.388714",
+        "total_alerts": 1,
+        "target_url": "",
+        "file_size": 488
+      },
+      {
+        "file": "vulnerable_api_test_20250822_183633.json",
+        "scan_type": "Enhanced Vulnerable API Testing",
+        "timestamp": "2025-08-22T18:36:33.014572",
+        "total_alerts": 1,
+        "target_url": "",
+        "file_size": 488
+      }
+    ],
+    "scan_execution_results": {
+      "Enhanced Vulnerability Testing": {
+        "success": true,
+        "stdout": "\ud83c\udfaf ENHANCED VULNERABLE API TESTING\n============================================================\n\nTesting OWASP Juice Shop (localhost:3000)...\n\ud83e\uddc3 Testing OWASP Juice Shop Vulnerabilities\n   \ud83d\udd25 FOUND: Admin panel exposure\n   Found 1 issues in Juice Shop\n\nTesting VAmPI (localhost:5000)...\n\ud83e\udddb Testing VAmPI Vulnerabilities\n   Found 0 issues in VAmPI\n\n\ud83d\udcca FINAL RESULTS\n========================================\nTotal Vulnerabilities: 1\nHigh Severity: 1\nReport saved: reports/vulnerable_api_test_20250822_183753.json\n\n\ud83d\udea8 HIGH SEVERITY VULNERABILITIES:\n1. Broken Access Control - Admin panel accessible without proper authentication\n",
+        "stderr": "",
+        "return_code": 0
+      },
+      "Quick Scan": {
+        "success": false,
+        "stdout": "\ud83d\ude80 Quick API Security Scan\n==================================================\nTarget: http://localhost:3000\nAPI: Quick Scan API\n\n\ud83d\udd0d Starting API Security Scan\nTarget: http://localhost:3000\nAPI Name: Quick Scan API\n============================================================\n2025-08-22 18:37:53,631 - ERROR - Failed to connect to ZAP: A non ZAP API url was specified http://127.0.0.1:8080/JSON/core/view/version/\n2025-08-22 18:37:53,632 - ERROR - \ud83d\udca1 Solutions:\n2025-08-22 18:37:53,632 - ERROR -    1. Install ZAP: brew install --cask owasp-zap\n2025-08-22 18:37:53,633 - ERROR -    2. Start ZAP daemon: ./setup_zap.sh start\n2025-08-22 18:37:53,633 - ERROR -    3. Check ZAP is running on localhost:8080\n\n\u274c Scan failed: ZAP is not accessible. Please:\n1. Install OWASP ZAP: brew install --cask owasp-zap\n2. Start ZAP daemon: ./setup_zap.sh start\n3. Or run: python3 test_connection.py for diagnostics\n",
+        "stderr": "",
+        "return_code": 1
+      },
+      "Main Scanner (if ZAP available)": {
+        "success": false,
+        "stdout": "\ud83d\udd0d Starting API Security Scan\nTarget: http://localhost:3000\nAPI Name: OWASP Juice Shop\n============================================================\n2025-08-22 18:37:53,887 - ERROR - Failed to connect to ZAP: A non ZAP API url was specified http://127.0.0.1:8080/JSON/core/view/version/\n2025-08-22 18:37:53,887 - ERROR - \ud83d\udca1 Solutions:\n2025-08-22 18:37:53,887 - ERROR -    1. Install ZAP: brew install --cask owasp-zap\n2025-08-22 18:37:53,887 - ERROR -    2. Start ZAP daemon: ./setup_zap.sh start\n2025-08-22 18:37:53,887 - ERROR -    3. Check ZAP is running on localhost:8080\n\n\u274c Scan failed: ZAP is not accessible. Please:\n1. Install OWASP ZAP: brew install --cask owasp-zap\n2. Start ZAP daemon: ./setup_zap.sh start\n3. Or run: python3 test_connection.py for diagnostics\n",
+        "stderr": "",
+        "return_code": 1
+      }
+    },
+    "total_scan_coverage": "2 different scan types"
+  },
+  "vulnerability_analysis": {
+    "by_severity": {
+      "critical_high": [
+        {
+          "name": "Broken Access Control",
+          "risk": "High",
+          "url": "http://localhost:3000/administration",
+          "description": "Admin panel accessible without proper authentication",
+          "confidence": "High",
+          "source_report": "vulnerable_api_test_20250822_183753.json",
+          "scan_timestamp": ""
+        },
+        {
+          "name": "Broken Access Control",
+          "risk": "High",
+          "url": "http://localhost:3000/administration",
+          "description": "Admin panel accessible without proper authentication",
+          "confidence": "High",
+          "source_report": "vulnerable_api_test_20250822_183633.json",
+          "scan_timestamp": ""
+        }
+      ],
+      "medium_risk": [],
+      "low_risk": []
+    },
+    "by_category": {
+      "Broken Access Control": 2
+    },
+    "unique_vulnerabilities": 1,
+    "affected_endpoints": 1
+  },
+  "all_findings": [
+    {
+      "name": "Broken Access Control",
+      "risk": "High",
+      "url": "http://localhost:3000/administration",
+      "description": "Admin panel accessible without proper authentication",
+      "confidence": "High",
+      "source_report": "vulnerable_api_test_20250822_183753.json",
+      "scan_timestamp": ""
+    },
+    {
+      "name": "Broken Access Control",
+      "risk": "High",
+      "url": "http://localhost:3000/administration",
+      "description": "Admin panel accessible without proper authentication",
+      "confidence": "High",
+      "source_report": "vulnerable_api_test_20250822_183633.json",
+      "scan_timestamp": ""
+    }
+  ],
+  "security_recommendations": [
+    "\ud83d\udea8 IMMEDIATE: Address all HIGH severity vulnerabilities within 24 hours",
+    "\ud83d\udd12 Implement proper authentication and authorization controls",
+    "\ud83d\udee1\ufe0f Add security headers (HSTS, CSP, X-Frame-Options, etc.)",
+    "\ud83d\udd0d Conduct input validation for all user inputs",
+    "\u26a1 Implement rate limiting and DoS protection",
+    "\ud83d\udd10 Review and strengthen password policies",
+    "\ud83d\udcca Set up continuous security monitoring",
+    "\u2705 Schedule regular penetration testing"
+  ],
+  "compliance_checklist": {
+    "OWASP_Top_10_2021": {
+      "A01_Broken_Access_Control": "FAIL",
+      "A02_Cryptographic_Failures": "REVIEW",
+      "A03_Injection": "REVIEW",
+      "A07_Identification_Authentication_Failures": "REVIEW"
+    },
+    "overall_owasp_compliance": "NON-COMPLIANT"
+  }
+}

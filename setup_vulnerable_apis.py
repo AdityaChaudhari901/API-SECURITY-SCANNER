@@ -139,7 +139,7 @@ class VulnerableApiSetup:
         cmd = [
             self.docker_cmd, 'run', '-d',
             '--name', container_name,
-            '-p', f'{port}:{5000 if container_name == "vampi" else port}',
+            '-p', f'{port}:{port}',
             image
         ]
         

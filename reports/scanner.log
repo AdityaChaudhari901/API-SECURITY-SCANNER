@@ -1,0 +1,84 @@
+2025-08-22 17:48:38,032 - WARNING - Slack token not provided, notifications will be skipped
+2025-08-22 17:48:38,266 - WARNING - Slack token not provided, notifications will be skipped
+2025-08-22 17:52:17,591 - WARNING - Slack token not provided, notifications will be skipped
+2025-08-22 17:52:17,871 - WARNING - Slack token not provided, notifications will be skipped
+2025-08-22 17:53:41,078 - ERROR - Failed to connect to ZAP: A non ZAP API url was specified http://127.0.0.1:8080/JSON/core/view/version/
+2025-08-22 17:53:41,079 - ERROR - 💡 Solutions:
+2025-08-22 17:53:41,079 - ERROR -    1. Install ZAP: brew install --cask owasp-zap
+2025-08-22 17:53:41,079 - ERROR -    2. Start ZAP daemon: ./setup_zap.sh start
+2025-08-22 17:53:41,079 - ERROR -    3. Check ZAP is running on localhost:8080
+2025-08-22 17:53:41,357 - ERROR - Failed to connect to ZAP: A non ZAP API url was specified http://127.0.0.1:8080/JSON/core/view/version/
+2025-08-22 17:53:41,357 - ERROR - 💡 Solutions:
+2025-08-22 17:53:41,357 - ERROR -    1. Install ZAP: brew install --cask owasp-zap
+2025-08-22 17:53:41,358 - ERROR -    2. Start ZAP daemon: ./setup_zap.sh start
+2025-08-22 17:53:41,358 - ERROR -    3. Check ZAP is running on localhost:8080
+2025-08-22 17:54:05,671 - ERROR - Failed to connect to ZAP: A non ZAP API url was specified http://127.0.0.1:8080/JSON/core/view/version/
+2025-08-22 17:54:05,671 - ERROR - 💡 Solutions:
+2025-08-22 17:54:05,671 - ERROR -    1. Install ZAP: brew install --cask owasp-zap
+2025-08-22 17:54:05,671 - ERROR -    2. Start ZAP daemon: ./setup_zap.sh start
+2025-08-22 17:54:05,671 - ERROR -    3. Check ZAP is running on localhost:8080
+2025-08-22 17:54:05,973 - ERROR - Failed to connect to ZAP: A non ZAP API url was specified http://127.0.0.1:8080/JSON/core/view/version/
+2025-08-22 17:54:05,974 - ERROR - 💡 Solutions:
+2025-08-22 17:54:05,974 - ERROR -    1. Install ZAP: brew install --cask owasp-zap
+2025-08-22 17:54:05,974 - ERROR -    2. Start ZAP daemon: ./setup_zap.sh start
+2025-08-22 17:54:05,974 - ERROR -    3. Check ZAP is running on localhost:8080
+2025-08-22 18:08:25,728 - ERROR - Failed to connect to ZAP: A non ZAP API url was specified http://127.0.0.1:8080/JSON/core/view/version/
+2025-08-22 18:08:25,729 - ERROR - 💡 Solutions:
+2025-08-22 18:08:25,729 - ERROR -    1. Install ZAP: brew install --cask owasp-zap
+2025-08-22 18:08:25,729 - ERROR -    2. Start ZAP daemon: ./setup_zap.sh start
+2025-08-22 18:08:25,729 - ERROR -    3. Check ZAP is running on localhost:8080
+2025-08-22 18:08:26,009 - ERROR - Failed to connect to ZAP: A non ZAP API url was specified http://127.0.0.1:8080/JSON/core/view/version/
+2025-08-22 18:08:26,009 - ERROR - 💡 Solutions:
+2025-08-22 18:08:26,009 - ERROR -    1. Install ZAP: brew install --cask owasp-zap
+2025-08-22 18:08:26,009 - ERROR -    2. Start ZAP daemon: ./setup_zap.sh start
+2025-08-22 18:08:26,009 - ERROR -    3. Check ZAP is running on localhost:8080
+2025-08-22 18:11:55,321 - ERROR - Failed to connect to ZAP: A non ZAP API url was specified http://127.0.0.1:8080/JSON/core/view/version/
+2025-08-22 18:11:55,321 - ERROR - 💡 Solutions:
+2025-08-22 18:11:55,321 - ERROR -    1. Install ZAP: brew install --cask owasp-zap
+2025-08-22 18:11:55,321 - ERROR -    2. Start ZAP daemon: ./setup_zap.sh start
+2025-08-22 18:11:55,322 - ERROR -    3. Check ZAP is running on localhost:8080
+2025-08-22 18:11:55,575 - ERROR - Failed to connect to ZAP: A non ZAP API url was specified http://127.0.0.1:8080/JSON/core/view/version/
+2025-08-22 18:11:55,576 - ERROR - 💡 Solutions:
+2025-08-22 18:11:55,576 - ERROR -    1. Install ZAP: brew install --cask owasp-zap
+2025-08-22 18:11:55,576 - ERROR -    2. Start ZAP daemon: ./setup_zap.sh start
+2025-08-22 18:11:55,576 - ERROR -    3. Check ZAP is running on localhost:8080
+2025-08-22 18:15:55,450 - ERROR - Failed to connect to ZAP: A non ZAP API url was specified http://127.0.0.1:8080/JSON/core/view/version/
+2025-08-22 18:15:55,450 - ERROR - 💡 Solutions:
+2025-08-22 18:15:55,450 - ERROR -    1. Install ZAP: brew install --cask owasp-zap
+2025-08-22 18:15:55,450 - ERROR -    2. Start ZAP daemon: ./setup_zap.sh start
+2025-08-22 18:15:55,450 - ERROR -    3. Check ZAP is running on localhost:8080
+2025-08-22 18:15:55,738 - ERROR - Failed to connect to ZAP: A non ZAP API url was specified http://127.0.0.1:8080/JSON/core/view/version/
+2025-08-22 18:15:55,738 - ERROR - 💡 Solutions:
+2025-08-22 18:15:55,738 - ERROR -    1. Install ZAP: brew install --cask owasp-zap
+2025-08-22 18:15:55,738 - ERROR -    2. Start ZAP daemon: ./setup_zap.sh start
+2025-08-22 18:15:55,738 - ERROR -    3. Check ZAP is running on localhost:8080
+2025-08-22 18:25:40,112 - ERROR - Failed to connect to ZAP: A non ZAP API url was specified http://127.0.0.1:8080/JSON/core/view/version/
+2025-08-22 18:25:40,113 - ERROR - 💡 Solutions:
+2025-08-22 18:25:40,113 - ERROR -    1. Install ZAP: brew install --cask owasp-zap
+2025-08-22 18:25:40,113 - ERROR -    2. Start ZAP daemon: ./setup_zap.sh start
+2025-08-22 18:25:40,113 - ERROR -    3. Check ZAP is running on localhost:8080
+2025-08-22 18:25:40,410 - ERROR - Failed to connect to ZAP: A non ZAP API url was specified http://127.0.0.1:8080/JSON/core/view/version/
+2025-08-22 18:25:40,410 - ERROR - 💡 Solutions:
+2025-08-22 18:25:40,410 - ERROR -    1. Install ZAP: brew install --cask owasp-zap
+2025-08-22 18:25:40,410 - ERROR -    2. Start ZAP daemon: ./setup_zap.sh start
+2025-08-22 18:25:40,410 - ERROR -    3. Check ZAP is running on localhost:8080
+2025-08-22 18:37:53,631 - ERROR - Failed to connect to ZAP: A non ZAP API url was specified http://127.0.0.1:8080/JSON/core/view/version/
+2025-08-22 18:37:53,632 - ERROR - 💡 Solutions:
+2025-08-22 18:37:53,632 - ERROR -    1. Install ZAP: brew install --cask owasp-zap
+2025-08-22 18:37:53,633 - ERROR -    2. Start ZAP daemon: ./setup_zap.sh start
+2025-08-22 18:37:53,633 - ERROR -    3. Check ZAP is running on localhost:8080
+2025-08-22 18:37:53,887 - ERROR - Failed to connect to ZAP: A non ZAP API url was specified http://127.0.0.1:8080/JSON/core/view/version/
+2025-08-22 18:37:53,887 - ERROR - 💡 Solutions:
+2025-08-22 18:37:53,887 - ERROR -    1. Install ZAP: brew install --cask owasp-zap
+2025-08-22 18:37:53,887 - ERROR -    2. Start ZAP daemon: ./setup_zap.sh start
+2025-08-22 18:37:53,887 - ERROR -    3. Check ZAP is running on localhost:8080
+2025-08-22 22:09:27,145 - ERROR - Failed to connect to ZAP: A non ZAP API url was specified http://127.0.0.1:8080/JSON/core/view/version/
+2025-08-22 22:09:27,146 - ERROR - 💡 Solutions:
+2025-08-22 22:09:27,146 - ERROR -    1. Install ZAP: brew install --cask owasp-zap
+2025-08-22 22:09:27,146 - ERROR -    2. Start ZAP daemon: ./setup_zap.sh start
+2025-08-22 22:09:27,146 - ERROR -    3. Check ZAP is running on localhost:8080
+2025-08-22 22:09:27,380 - ERROR - Failed to connect to ZAP: A non ZAP API url was specified http://127.0.0.1:8080/JSON/core/view/version/
+2025-08-22 22:09:27,380 - ERROR - 💡 Solutions:
+2025-08-22 22:09:27,380 - ERROR -    1. Install ZAP: brew install --cask owasp-zap
+2025-08-22 22:09:27,380 - ERROR -    2. Start ZAP daemon: ./setup_zap.sh start
+2025-08-22 22:09:27,381 - ERROR -    3. Check ZAP is running on localhost:8080
