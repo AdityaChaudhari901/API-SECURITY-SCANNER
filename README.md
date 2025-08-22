@@ -294,48 +294,6 @@ Key Python packages:
 - `colorama` - Cross-platform colored terminal output
 - `python-dotenv` - Environment configuration
 
-## 🚨 Security Considerations
-
-### Sensitive Data Protection
-- Never commit `.env` files with real credentials
-- Use `.env.example` for configuration templates
-- Regularly rotate API keys and tokens
-
-### Network Security
-- Scanner creates network connections to target APIs
-- Ensure proper firewall rules for ZAP proxy
-- Use VPNs when scanning external targets
-
-### Responsible Disclosure
-- Only scan APIs you own or have permission to test
-- Follow responsible disclosure practices for findings
-- Respect rate limits and terms of service
-
-## 📝 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 🤝 Support
-
-### Getting Help
-
-- **Issues**: Report bugs or request features on [GitHub Issues](https://github.com/AdityaChaudhari901/API-SECURITY-SCANNER/issues)
-- **Documentation**: Check this README and inline code comments
-- **Community**: Join discussions in the repository
-
-### FAQ
-
-**Q: What if OWASP ZAP is not installed?**
-A: The scanner falls back to direct HTTP testing without requiring ZAP.
-
-**Q: Can I scan external APIs?**
-A: Yes, but ensure you have permission and follow responsible disclosure practices.
-
-**Q: How do I customize vulnerability checks?**
-A: Modify the test cases in `enhanced_vuln_tester.py` or add new modules.
-
-**Q: What if Slack notifications fail?**
-A: Check your bot token, channel permissions, and network connectivity.
 
 ## 🎯 Roadmap
 
