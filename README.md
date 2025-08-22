@@ -1,4 +1,4 @@
-# 🛡️ API Security Scanner
+# 🛡️ Automated Web Application API Security Scanner
 
 A comprehensive, automated API security scanner built with Python, featuring OWASP ZAP integration, real-time Slack notifications, and cross-platform compatibility. This tool helps identify vulnerabilities in web APIs and provides detailed security assessments.
 
